@@ -8,7 +8,7 @@ A functional data workflow covering all stages from extraction to visualization.
 PoetryDB is a free API for accessing poetry data. It offers a large collection of poems, which can be searched by author, title, or lines, with results in JSON format. The API is built in Ruby using Sinatra for routes, and the data is stored in a MongoDB database.
 
 <div align="center">
-<img src="readme-pics/PoetryDB.png" width="340" />
+<img src="readme-pics/PoetryDB.png" width="400" />
 <br/>
 Source: https://github.com/thundercomb/poetrydb
 </div>
@@ -102,6 +102,9 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 </div>
 
 * Correlation between poem length and word diversity [Scatter plot]
+<div align="center">
+<img src="readme-pics/query.png" width="200" />
+</div>
 * There is only one poem record that has more than 5000 lines, so to better analyze correlation between poem length and word diversity, I ignored this record.<br/>
 Poem length and word diversity are two continuous variables. A scatter plot is ideal for clearly displaying the relationship between them.
 <div align="center">
