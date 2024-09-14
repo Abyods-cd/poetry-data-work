@@ -57,11 +57,13 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 <img src="readme-pics/EDA-1.png" width="200" />
 <br/>Insights: Most of the poems have 5-14 lines.
 </div>
+
 * Top 10 most productive authors:
 <div align="center">
 <img src="readme-pics/EDA-2.png" width="200" />
 <br/>Insights: Despite having 129 authors, the top 10 authors with the highest output account for more than half of the total number of poems (1534 out of 2727).
 </div>
+
 * Frequency of time-related words in poems:
 <div align="center">
 <img src="readme-pics/EDA-3.png" width="200" />
@@ -76,36 +78,31 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 
 ## Visualization 
 * Distribution of poem lengths [Pie Chart]
-<br/>
-Pie chart visualized how various poem length ranges contribute to the overall dataset.
+* Pie chart visualized how various poem length ranges contribute to the overall dataset.
 <div align="center">
 <img src="visualization-pics/poem_length_distribution.png" width="600" />
 </div>
  
 * Top 10 most productive authors [Horizontal Bar Chart]
-<br/>
-Horizontal bar charts are excellent for comparing categories.
+* Horizontal bar charts are excellent for comparing categories.
 <div align="center">
 <img src="visualization-pics/top_10_productive_authors.png" width="600" />
 </div>
  
 * Time-related words frequency [Treemap]
-<br/>
-The size of each rectangle in a treemap corresponds to the frequency of the words. This makes it easy to compare the relative frequencies of different time-related words at a glance.
+* The size of each rectangle in a treemap corresponds to the frequency of the words. This makes it easy to compare the relative frequencies of different time-related words at a glance.
 <div align="center">
 <img src="visualization-pics/time_related_words_treemap.png" width="600" />
 </div>
 
 * Top 50 most common words [Word Cloud]
-<br/>
-A word cloud visually emphasizes the most frequent words by displaying them in varying sizes.
+* A word cloud visually emphasizes the most frequent words by displaying them in varying sizes.
 <div align="center">
 <img src="visualization-pics/top_50_words_wordcloud.png" width="600" />
 </div>
 
 * Correlation between poem length and word diversity [Scatter plot]
-<br/>
-There is only one poem record that has more than 5000 lines, so to better analyze correlation between poem length and word diversity, I ignored this record.<br/>
+* There is only one poem record that has more than 5000 lines, so to better analyze correlation between poem length and word diversity, I ignored this record.<br/>
 Poem length and word diversity are two continuous variables. A scatter plot is ideal for clearly displaying the relationship between them.
 <div align="center">
 <img src="visualization-pics/poem_length_word_diversity.png" width="600" />
