@@ -55,23 +55,23 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 * Distribution of poem lengths:
 <div align="center">
 <img src="readme-pics/EDA-1.png" width="200" />
-Insights: Most of the poems have 5-14 lines.
+<br/>Insights: Most of the poems have 5-14 lines.
 </div>
 * Top 10 most productive authors:
 <div align="center">
 <img src="readme-pics/EDA-2.png" width="200" />
-Insights: Despite having 129 authors, the top 10 authors with the highest output account for more than half of the total number of poems (1534 out of 2727).
+<br/>Insights: Despite having 129 authors, the top 10 authors with the highest output account for more than half of the total number of poems (1534 out of 2727).
 </div>
 * Frequency of time-related words in poems:
 <div align="center">
 <img src="readme-pics/EDA-3.png" width="200" />
-Insights: The word 'may,' which can also mean 'might,' is the most frequent time-related word in the poems, followed by 'night.'
+<br/>Insights: The word 'may,' which can also mean 'might,' is the most frequent time-related word in the poems, followed by 'night.'
 </div>
 
 * Top 20 most frequent words (potential themes) across all poems:
 <div align="center">
 <img src="readme-pics/EDA-4.png" width="200" />
-Insights: Combined natural language toolkit (nltk) library and my own custom stopwords to remove many meaningless stopwords. The top three words in the ranking list that can be potential themes are “love”, “heart” and “god”.
+<br/>Insights: Combined natural language toolkit (nltk) library and my own custom stopwords to remove many meaningless stopwords. The top three words in the ranking list that can be potential themes are “love”, “heart” and “god”.
 </div>
 
 ## Visualization 
