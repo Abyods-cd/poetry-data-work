@@ -41,7 +41,7 @@ Source: https://github.com/thundercomb/poetrydb
 ### Database Schema
  
 <div align="center">
-<img src="DB-Schema.png" width="700"/>
+<img src="DB-Schema.jpg" width="700"/>
 <br/>
 Database Schema
 </div>
