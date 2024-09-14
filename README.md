@@ -8,7 +8,7 @@ A functional data workflow covering all stages from extraction to visualization.
 PoetryDB is a free API for accessing poetry data. It offers a large collection of poems, which can be searched by author, title, or lines, with results in JSON format. The API is built in Ruby using Sinatra for routes, and the data is stored in a MongoDB database.
 
 <div align="center">
-<img src="PoetryDB.png" width="340" />
+<img src="readme-pics/PoetryDB.png" width="340" />
 <br/>
 Source: https://github.com/thundercomb/poetrydb
 </div>
@@ -35,7 +35,7 @@ Source: https://github.com/thundercomb/poetrydb
 ### Database Schema
  
 <div align="center">
-<img src="DB-Schema.jpg" width="700"/>
+<img src="readme-pics/DB-Schema.jpg" width="700"/>
 <br/>
 Database Schema
 </div>
@@ -53,18 +53,24 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 
 ## Exploratory Data Analysis and Insights
 * Distribution of poem lengths:
- 
-Insights: Most of poems have 5-14 lines.
+<div align="center">
+<img src="readme-pics/EDA-1.png" width="300" />
+Insights: Most of the poems have 5-14 lines.
+</div>
 * Top 10 most productive authors:
  
 Insights: Despite having 129 authors, the top 10 authors with the highest output account for more than half of the total number of poems (1534 out of 2727).
 * Frequency of time-related words in poems:
- 
+<div align="center">
+<img src="readme-pics/EDA-3.png" width="300" />
 Insights: The word 'may,' which can also mean 'might,' is the most frequent time-related word in the poems, followed by 'night.'
+</div>
 
 * Top 20 most frequent words (potential themes) across all poems:
- 
+<div align="center">
+<img src="readme-pics/EDA-4.png" width="300" />
 Insights: Combined natural language toolkit (nltk) library and my own custom stopwords to remove many meaningless stopwords. The top three words in the ranking list that can be potential themes are “love”, “heart” and “god”.
+</div>
 
 ## Visualization 
 * Distribution of poem lengths [Pie Chart]
