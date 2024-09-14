@@ -103,7 +103,7 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 
 * Correlation between poem length and word diversity [Scatter plot]
 <div align="center">
-<img src="readme-pics/query.png" width="200" />
+<img src="readme-pics/query.png" width="509" />
 </div>
 * There is only one poem record that has more than 5000 lines, so to better analyze correlation between poem length and word diversity, I ignored this record.<br/>
 Poem length and word diversity are two continuous variables. A scatter plot is ideal for clearly displaying the relationship between them.
