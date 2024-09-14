@@ -24,16 +24,13 @@ Source: https://github.com/thundercomb/poetrydb
     <br/>a.	Sending a request to retrieve a list of authors (get_authors()).
     <br/>b.	Storing these authors in the authors table using insert_authors().
 <br/>
-<br/>
 * Fetching Titles:
   <br/>a.	Sending another request to get a list of poem titles (get_titles()).
   <br/>b.	For each title, fetching detailed information about the poem, including the author, title, line count, and the poem's content (get_poem_by_title()).
 <br/>
-<br/>
 * Inserting Poems:
   <br/>a.	Inserting poems data into the poems table using insert_poem(). The corresponding author is fetched from the authors table to maintain the relationship between the poem and its author.
   <br/>b.	If a poem is already in the database, the script skips inserting it again.
-<br/>
 <br/>
 * Inserting Poem Lines:
   <br/>a.	The lines of each poem are stored in the lines table using insert_lines(). Each line of the poem is linked to its corresponding poem_id, and each line is given a line number to preserve the order of the poem's content.
@@ -54,7 +51,6 @@ Unique constraints on author_name, poem_title and line_id ensure that there are 
 ## Data Cleaning and Processing
 * Removing Duplicate Poems:
 Used SQL with the poem_title unique constraint and ON CONFLICT DO NOTHING clause to filter out the duplicates, leaving 2727 unique poems in the database.
-<br/>
 <br/>
 * Cleaning Poem Titles and Line Content:
 Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbols at the beginning or end. I used regular expressions in Python to clean these titles. For line content cleaning, I also removed extra spaces and meaningless symbols by using regular expressions. After the cleaning step, I removed 19 empty lines from the database.
