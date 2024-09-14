@@ -66,13 +66,13 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 
 * Frequency of time-related words in poems:
 <div align="center">
-<img src="readme-pics/EDA-3.png" width="200" />
+<img src="readme-pics/EDA-3.png" width="180" />
 <br/>Insights: The word 'may,' which can also mean 'might,' is the most frequent time-related word in the poems, followed by 'night.'
 </div>
 
 * Top 20 most frequent words (potential themes) across all poems:
 <div align="center">
-<img src="readme-pics/EDA-4.png" width="200" />
+<img src="readme-pics/EDA-4.png" width="170" />
 <br/>Insights: Combined natural language toolkit (nltk) library and my own custom stopwords to remove many meaningless stopwords. The top three words in the ranking list that can be potential themes are “love”, “heart” and “god”.
 </div>
 
@@ -103,7 +103,7 @@ Titles like 'Twould ease -- a Butterfly -- contains unnecessary quotes or symbol
 
 * Correlation between poem length and word diversity [Scatter plot]
 <div align="center">
-<img src="readme-pics/query.png" width="509" />
+<img src="readme-pics/query.jpg" width="509" />
 </div>
 * There is only one poem record that has more than 5000 lines, so to better analyze correlation between poem length and word diversity, I ignored this record.<br/>
 Poem length and word diversity are two continuous variables. A scatter plot is ideal for clearly displaying the relationship between them.
