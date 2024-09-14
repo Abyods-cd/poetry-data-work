@@ -113,4 +113,4 @@ Poem length and word diversity are two continuous variables. A scatter plot is i
 
 ## Anti-Plagiarism Notice
 
-Please note that the code and content in this project are intended for educational and reference purposes only. Any form of plagiarism or unauthorized use will be considered a violation of academic integrity. Ensure you comply with relevant academic and legal standards before using this material. The consequences of any misuse are the sole responsibility of the user.
+Please note that the code and content in this project are intended for educational and reference purposes only. Any form of plagiarism or unauthorized use will be considered a violation of academic integrity. Ensure you comply with relevant academic and legal standards before using this material. You should not copy this project as your assignment. The consequences of any misuse are the sole responsibility of the user.
